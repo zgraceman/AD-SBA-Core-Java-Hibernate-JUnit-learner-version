@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author zachg
+ *
+ */
+module Strings {
+}
