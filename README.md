@@ -12,10 +12,11 @@ Valid students are able to see the courses they are registered for.
 Valid students are able to register for any course in the system as
 long as they are not already registered.
 
-### Maven Project Requirements:
+### Maven Project Dependencies:
 
 - [Amazon Corretto 11 JDK](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html) 
 - [Hibernate](https://mvnrepository.com/artifact/org.hibernate/hibernate-core) 
+- [MySQL](https://mvnrepository.com/artifact/mysql/mysql-connector-java)
 - [MariaDB](https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client)
 - [H2 database - tests](https://mvnrepository.com/artifact/com.h2database/h2)
 - [Project lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok)
