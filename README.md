@@ -12,6 +12,8 @@ Valid students are able to see the courses they are registered for.
 Valid students are able to register for any course in the system as
 long as they are not already registered.
 
+Note: Do not change code in main method located in App.java
+
 ### Maven Project Dependencies:
 
 - [Amazon Corretto 11 JDK](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html) 

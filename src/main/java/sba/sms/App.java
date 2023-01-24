@@ -23,6 +23,8 @@ import java.util.Scanner;
  *
  * @author  Jafer Alhaboubi
  * @since sba-core-java-hibernate-junit 1.0
+ * 
+ * Note: Do not change code in main method located in App.java
  */
 @Log
 public class App {
