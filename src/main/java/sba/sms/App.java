@@ -32,8 +32,6 @@ public class App {
     static final  CourseService courseService = new CourseService();
 
     public static void main(String[] args) {
-
-    	System.out.println("Testing github commititing");
     	
         CommandLine.addData();
 

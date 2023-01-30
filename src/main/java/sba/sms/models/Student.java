@@ -67,7 +67,28 @@ public class Student {
 	
 	// Methods
 	
-
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Student other = (Student) obj;
+		return Objects.equals(email, other.email) && Objects.equals(name, other.name)
+				&& Objects.equals(password, other.password);
+	}
+	
+	public void addCourse(Course c) {
+		courses.add(c);
+		c.getStudents().add(this);
+	}
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(email, name, password);
+	}
 	
 	
 }
