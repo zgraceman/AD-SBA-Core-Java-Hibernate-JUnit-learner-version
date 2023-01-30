@@ -33,6 +33,8 @@ public class App {
 
     public static void main(String[] args) {
 
+    	System.out.println("Testing github commititing");
+    	
         CommandLine.addData();
 
         Scanner input = new Scanner(System.in);
